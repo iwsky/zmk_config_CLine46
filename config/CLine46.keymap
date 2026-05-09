@@ -21,7 +21,7 @@
         };
 
         RightClick {
-            bindings = <&mkp LCLK>;
+            bindings = <&mkp RCLK>;
             key-positions = <20 21>;
         };
 
