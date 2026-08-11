@@ -46,7 +46,7 @@ manifest:
     # DYA Studio モジュール（すべて cormoran リポジトリ）
     - name: zmk-module-ble-management
       remote: cormoran
-      revision: mainpmw3610-alt
+      revision: main
     - name: zmk-module-battery-history
       remote: cormoran
       revision: main
