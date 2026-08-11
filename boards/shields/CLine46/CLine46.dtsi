@@ -125,5 +125,6 @@
     trackball: trackball@0 {
         status = "disabled";
         reg = <0>;
+        motion-gpios = <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 };
