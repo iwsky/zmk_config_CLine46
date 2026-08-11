@@ -1,9 +1,5 @@
 on: [push, pull_request, workflow_dispatch]
 
-# ワークフロー全体に Git SSL 無効化を適用
-env:
-  GIT_SSL_NO_VERIFY: 'true'
-
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
