@@ -120,9 +120,9 @@ manifest:
 #      revision: main
 
     # その他
-#    - name: zmk-module-battery-history
-#      remote: cormoran
-#      revision: main
+    - name: zmk-module-battery-history
+      remote: cormoran
+      revision: main
 
   self:
     path: config
