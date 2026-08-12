@@ -95,9 +95,9 @@ manifest:
 #      revision: main
 
     # 設定
-#    - name: zmk-module-settings-rpc
-#      remote: cormoran
-#      revision: main
+    - name: zmk-module-settings-rpc
+      remote: cormoran
+      revision: main
 #    - name: zmk-feature-custom-settings
 #      remote: cormoran
 #      revision: main
