@@ -41,6 +41,19 @@ manifest:
     - name: zmk-module-runtime-input-processor
       remote: cormoran
       revision: dbf92f764de8b6ffd60bf5850514302875fe2570
+      
+    - name: zmk-feature-runtime-macro
+      remote: cormoran
+      revision: main
+    - name: zmk-feature-runtime-combo
+      remote: cormoran
+      revision: main
+    - name: zmk-feature-input-stream # 押下キー表示が必要な場合だけ
+      remote: cormoran
+      revision: main
+    - name: zmk-feature-module-physical-layout # プレビューに拡張モジュールを表示する場合だけ
+      remote: cormoran
+      revision: main
 
 
 
