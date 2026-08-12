@@ -98,9 +98,6 @@ manifest:
     - name: zmk-module-settings-rpc
       remote: cormoran
       revision: main
-    - name: zmk-feature-custom-settings
-      remote: cormoran
-      revision: main
 
     # 診断と開発補助
     - name: zmk-feature-device-info
