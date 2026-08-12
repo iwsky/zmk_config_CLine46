@@ -28,16 +28,7 @@ manifest:
       revision: main
 
     # DYA Studio モジュール（すべて cormoran リポジトリ）
-    - name: zmk-module-ble-management
-      remote: cormoran
-      revision: main
     - name: zmk-module-battery-history
-      remote: cormoran
-      revision: main
-    - name: zmk-module-settings-rpc
-      remote: cormoran
-      revision: main
-    - name: zmk-module-runtime-input-processor
       remote: cormoran
       revision: main
     - name: zmk-feature-runtime-macro
@@ -52,7 +43,40 @@ manifest:
     - name: zmk-feature-module-physical-layout # プレビューに拡張モジュールを表示する場合だけ
       remote: cormoran
       revision: main
-      
+    - name: zmk-driver-pmw3610-with-custom-studio-rpc
+      remote: cormoran
+      revision: main
+    - name: zmk-module-runtime-input-processor
+      remote: cormoran
+      revision: main
+    - name: zmk-module-ble-management
+      remote: cormoran
+      revision: main
+    - name: zmk-feature-default-layer
+      remote: cormoran
+      revision: codex/custom-rpc-rewrite
+    - name: zmk-feature-os-detection
+      remote: cormoran
+      revision: main
+    - name: zmk-module-settings-rpc
+      remote: cormoran
+      revision: main
+    - name: zmk-feature-device-info
+      remote: cormoran
+      revision: main
+    - name: zmk-feature-watchdog
+      remote: cormoran
+      revision: main
+    - name: zmk-module-devtool
+      remote: cormoran
+      revision: main
+    - name: zmk-feature-zephyr-setting-expose
+      remote: cormoran
+      revision: main
+    - name: zmk-feature-kscan-diagnostics
+      remote: cormoran
+      revision: main
+
     - name: zmk-pmw3610-driver
       remote: badjeff
       revision: zmk-0.4
