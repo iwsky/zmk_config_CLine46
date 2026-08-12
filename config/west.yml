@@ -29,6 +29,12 @@ manifest:
       revision: v0.3-branch
 
     # DYA Studio モジュール（すべて cormoran リポジトリ）
+    - name: zmk-feature-custom-settings
+      remote: cormoran
+      revision: main
+    - name: zmk-feature-fast-keymap
+      remote: cormoran
+      revision: main
     - name: zmk-module-ble-management
       remote: cormoran
       revision: 851661cd21f2aded8ec649da86e01a207dc4b973
@@ -41,7 +47,7 @@ manifest:
     - name: zmk-module-runtime-input-processor
       remote: cormoran
       revision: dbf92f764de8b6ffd60bf5850514302875fe2570
-      
+
     - name: zmk-feature-runtime-macro
       remote: cormoran
       revision: main
