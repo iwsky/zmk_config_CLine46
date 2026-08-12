@@ -24,9 +24,9 @@ manifest:
       remote: badjeff
       revision: zmk-0.3
 
-    - name: zmk-rgbled-widgetzmk-module-ble-management 
+    - name: zmk-rgbled-widget
       remote: caksoylar
-      revision: main
+      revision: v0.3-branch
 
     # DYA Studio モジュール（すべて cormoran リポジトリ）
     - name: zmk-module-ble-management
