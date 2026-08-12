@@ -53,25 +53,15 @@ manifest:
       revision: main
 
     # DYA Studio モジュール（すべて cormoran リポジトリ）
+    # DYA Studio CORE Module
     - name: zmk-feature-custom-settings
       remote: cormoran
       revision: main
     - name: zmk-feature-fast-keymap
       remote: cormoran
       revision: main
-    - name: zmk-module-ble-management
-      remote: cormoran
-      revision: main
-    - name: zmk-module-battery-history
-      remote: cormoran
-      revision: main
-    - name: zmk-module-settings-rpc
-      remote: cormoran
-      revision: main
-    - name: zmk-module-runtime-input-processor
-      remote: cormoran
-      revision: main
 
+    # キーマップ、Macro、Combo
 #    - name: zmk-feature-runtime-macro
 #      remote: cormoran
 #      revision: main
@@ -82,6 +72,55 @@ manifest:
 #      remote: cormoran
 #      revision: main
 #    - name: zmk-feature-module-physical-layout # プレビューに拡張モジュールを表示する場合だけ
+#      remote: cormoran
+#      revision: main
+
+    # トラックボール
+#    - name: zmk-driver-pmw3610-with-custom-studio-rpc
+#      remote: cormoran
+#      revision: main
+#    - name: zmk-module-runtime-input-processor
+#      remote: cormoran
+#      revision: main
+
+    # 接続先とOS
+#    - name: zmk-module-ble-management
+#      remote: cormoran
+#      revision: main
+#    - name: zmk-feature-default-layer
+#      remote: cormoran
+#      revision: codex/custom-rpc-rewrite
+#    - name: zmk-feature-os-detection
+#      remote: cormoran
+#      revision: main
+
+    # 設定
+#    - name: zmk-module-settings-rpc
+#      remote: cormoran
+#      revision: main
+#    - name: zmk-feature-custom-settings
+#      remote: cormoran
+#      revision: main
+
+    # 診断と開発補助
+#    - name: zmk-feature-device-info
+#      remote: cormoran
+#      revision: main
+#    - name: zmk-feature-watchdog
+#      remote: cormoran
+#      revision: main
+#    - name: zmk-module-devtool
+#      remote: cormoran
+#      revision: main
+#    - name: zmk-feature-zephyr-setting-expose
+#      remote: cormoran
+#      revision: main
+#    - name: zmk-feature-kscan-diagnostics
+#      remote: cormoran
+#      revision: main
+
+    # その他
+#    - name: zmk-module-battery-history
 #      remote: cormoran
 #      revision: main
 
