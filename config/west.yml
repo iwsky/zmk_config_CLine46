@@ -84,9 +84,9 @@ manifest:
       revision: main
 
     # 接続先とOS
-#    - name: zmk-module-ble-management
-#      remote: cormoran
-#      revision: main
+    - name: zmk-module-ble-management
+      remote: cormoran
+      revision: main
 #    - name: zmk-feature-default-layer
 #      remote: cormoran
 #      revision: codex/custom-rpc-rewrite
