@@ -68,12 +68,12 @@ manifest:
     - name: zmk-feature-runtime-combo
       remote: cormoran
       revision: main
-    - name: zmk-feature-input-stream # 押下キー表示が必要な場合だけ
-      remote: cormoran
-      revision: main
-    - name: zmk-feature-module-physical-layout # プレビューに拡張モジュールを表示する場合だけ
-      remote: cormoran
-      revision: main
+#    - name: zmk-feature-input-stream # 押下キー表示が必要な場合だけ
+#      remote: cormoran
+#      revision: main
+#    - name: zmk-feature-module-physical-layout # プレビューに拡張モジュールを表示する場合だけ
+#      remote: cormoran
+#      revision: main
 
     # トラックボール
  #   - name: zmk-driver-pmw3610-with-custom-studio-rpc
@@ -87,12 +87,12 @@ manifest:
     - name: zmk-module-ble-management
       remote: cormoran
       revision: main
-    - name: zmk-feature-default-layer
-      remote: cormoran
-      revision: codex/custom-rpc-rewrite
-    - name: zmk-feature-os-detection
-      remote: cormoran
-      revision: main
+#    - name: zmk-feature-default-layer
+#      remote: cormoran
+#      revision: codex/custom-rpc-rewrite
+#    - name: zmk-feature-os-detection
+#      remote: cormoran
+#      revision: main
 
     # 設定
     - name: zmk-module-settings-rpc
@@ -100,18 +100,18 @@ manifest:
       revision: main
 
     # 診断と開発補助
-    - name: zmk-feature-device-info
-      remote: cormoran
-      revision: main
-    - name: zmk-feature-watchdog
-      remote: cormoran
-      revision: main
-    - name: zmk-module-devtool
-      remote: cormoran
-      revision: main
-    - name: zmk-feature-zephyr-setting-expose
-      remote: cormoran
-      revision: main
+#    - name: zmk-feature-device-info
+#      remote: cormoran
+#      revision: main
+#    - name: zmk-feature-watchdog
+#      remote: cormoran
+#      revision: main
+#    - name: zmk-module-devtool
+#      remote: cormoran
+#      revision: main
+#    - name: zmk-feature-zephyr-setting-expose
+#      remote: cormoran
+#      revision: main
     - name: zmk-feature-kscan-diagnostics
       remote: cormoran
       revision: main
