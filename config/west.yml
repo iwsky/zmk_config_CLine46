@@ -13,12 +13,12 @@ manifest:
     # ZMK: DYA Studio 用カスタム RPC サブシステム付き cormoran fork
     - name: zmk
       remote: cormoran
-      revision: main+dya
+      revision: main
       import:
         file: app/west.yml
     - name: zephyr
       remote: cormoran
-      revision: v4.1.0+zmk-fixes+nrf-half-duplex-uart
+      revision: main
       clone-depth: 1
       import:
         name-blocklist:
@@ -117,9 +117,9 @@ manifest:
 #      revision: main
 
     # その他
-    - name: zmk-module-battery-history
-      remote: cormoran
-      revision: main
+#    - name: zmk-module-battery-history
+#      remote: cormoran
+#      revision: main
 
   self:
     path: config
