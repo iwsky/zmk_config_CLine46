@@ -18,7 +18,7 @@ manifest:
 
     - name: zephyr
       remote: cormoran
-      revision: v3.5.0+zmk-fixes+nrf-half-duplex-uart
+      revision: v4.1.0+zmk-fixes+nrf-half-duplex-uart
       clone-depth: 1
       import:
         name-blocklist:
