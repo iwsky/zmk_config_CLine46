@@ -13,8 +13,32 @@ manifest:
     # ZMK: DYA Studio 用カスタム RPC サブシステム付き cormoran fork
     - name: zmk
       remote: cormoran
-      revision: v0.3+custom-studio-protocol
+      revision: v0.3-branch+dya
       import: app/west.yml
+
+    - name: zephyr
+      remote: cormoran
+      revision: v3.5.0+zmk-fixes+nrf-half-duplex-uart
+      clone-depth: 1
+      import:
+        name-blocklist:
+          - ci-tools
+          - hal_altera
+          - hal_cypress
+          - hal_infineon
+          - hal_microchip
+          - hal_nxp
+          - hal_openisa
+          - hal_xtensa
+          - hal_st
+          - hal_ti
+          - loramac-node
+          - mcuboot
+          - mcumgr
+          - net-tools
+          - openthread
+          - edtt
+          - trusted-firmware-m
 
     - name: zmk-feature-non-lipo-battery-management
       remote: takamaru-fpv
