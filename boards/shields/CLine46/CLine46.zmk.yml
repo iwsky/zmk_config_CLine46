@@ -3,6 +3,6 @@ id: CLine46
 name: CLine46
 type: shield
 url: https://github.com/takamaru-fpv/zmk-config-CLine45
-requires: [xiao_ble]
+requires: [seeeduino_xiao_ble]
 features:
   - keys
