@@ -18,8 +18,7 @@ config ZMK_POINTING
 config SPI
     default y
 
-config PMW3610
-    bool
+config PMW3610_ALT
     default y
 
 endif
@@ -27,16 +26,13 @@ endif
 
 if SHIELD_CLINE46_R || SHIELD_CLINE46_L
 
-config NFCT_PINS_AS_GPIOS
-    default y
-
 config ZMK_SPLIT
     default y
 
- config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
-     default 30
- 
- config RGBLED_WIDGET_BATTERY_LEVEL_CRITICAL
-     default 10
+config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
+    default 30
+
+config RGBLED_WIDGET_BATTERY_LEVEL_CRITICAL
+    default 10
 
 endif
