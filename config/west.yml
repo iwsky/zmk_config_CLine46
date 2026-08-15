@@ -48,9 +48,9 @@ manifest:
 #      remote: badjeff
 #      revision: zmk-0.4
 
-#    - name: zmk-rgbled-widget
-#      remote: caksoylar
-#      revision: main
+    - name: zmk-rgbled-widget
+      remote: caksoylar
+      revision: main
 
     # DYA Studio モジュール（すべて cormoran リポジトリ）
     # DYA Studio CORE Module
