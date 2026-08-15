@@ -4,8 +4,8 @@ manifest:
       url-base: https://github.com/cormoran
 #    - name: badjeff    # <-- PMW3610
 #      url-base: https://github.com/badjeff
-#    - name: caksoylar  # <-- RGB LED
-#      url-base: https://github.com/caksoylar
+    - name: caksoylar  # <-- RGB LED
+      url-base: https://github.com/caksoylar
     - name: takamaru-fpv  # <-- Battery level smoothing
       url-base: https://github.com/takamaru-fpv
 
