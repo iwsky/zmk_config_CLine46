@@ -12,6 +12,30 @@
 };
 
 / {
+    runtime_combo_defaults {
+        compatible = "cormoran,runtime-combo-defaults";
+
+        LeftClick {
+            bindings = <&mkp LCLK>;
+            key-positions = <19 20>;
+        };
+
+        RightClick {
+            bindings = <&mkp RCLK>;
+            key-positions = <20 21>;
+        };
+
+        ScrollMode {
+            bindings = <&mo 3>;
+            key-positions = <31 20>;
+        };
+
+        MiddleClick {
+            bindings = <&mkp MCLK>;
+            key-positions = <19 8>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
