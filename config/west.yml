@@ -100,21 +100,21 @@ manifest:
       revision: main
 
     # 診断と開発補助
-#    - name: zmk-feature-device-info
-#      remote: cormoran
-#      revision: main
+    - name: zmk-feature-device-info
+      remote: cormoran
+      revision: main
     - name: zmk-feature-watchdog
       remote: cormoran
       revision: main
     - name: zmk-module-devtool
       remote: cormoran
       revision: main
-#    - name: zmk-feature-zephyr-setting-expose
-#      remote: cormoran
-#      revision: main
-#    - name: zmk-feature-kscan-diagnostics
-#      remote: cormoran
-#      revision: main
+    - name: zmk-feature-zephyr-setting-expose
+      remote: cormoran
+      revision: main
+    - name: zmk-feature-kscan-diagnostics
+      remote: cormoran
+      revision: main
 
     # その他
 #    - name: zmk-module-battery-history
