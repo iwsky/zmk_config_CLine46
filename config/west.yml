@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: cormoran
       url-base: https://github.com/cormoran
-#    - name: badjeff    # <-- PMW3610
-#      url-base: https://github.com/badjeff
+    - name: badjeff    # <-- PMW3610
+      url-base: https://github.com/badjeff
     - name: caksoylar  # <-- RGB LED
       url-base: https://github.com/caksoylar
     - name: takamaru-fpv  # <-- Battery level smoothing
