@@ -68,9 +68,9 @@ manifest:
     - name: zmk-feature-runtime-combo
       remote: cormoran
       revision: main
-#    - name: zmk-feature-input-stream # 押下キー表示が必要な場合だけ
-#      remote: cormoran
-#      revision: main
+    - name: zmk-feature-input-stream # 押下キー表示が必要な場合だけ
+      remote: cormoran
+      revision: main
 #    - name: zmk-feature-module-physical-layout # プレビューに拡張モジュールを表示する場合だけ
 #      remote: cormoran
 #      revision: main
