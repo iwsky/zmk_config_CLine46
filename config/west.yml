@@ -112,9 +112,9 @@ manifest:
 #    - name: zmk-feature-zephyr-setting-expose
 #      remote: cormoran
 #      revision: main
-#    - name: zmk-feature-kscan-diagnostics
-#      remote: cormoran
-#      revision: main
+    - name: zmk-feature-kscan-diagnostics
+      remote: cormoran
+      revision: main
 
     # その他
 #    - name: zmk-module-battery-history
