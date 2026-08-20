@@ -64,12 +64,12 @@ manifest:
     - name: zmk-module-ble-management
       remote: cormoran
       revision: main
-#    - name: zmk-feature-default-layer
-#      remote: cormoran
-#      revision: codex/custom-rpc-rewrite
-#    - name: zmk-feature-os-detection
-#      remote: cormoran
-#      revision: main
+    - name: zmk-feature-default-layer
+      remote: cormoran
+      revision: codex/custom-rpc-rewrite
+    - name: zmk-feature-os-detection
+      remote: cormoran
+      revision: main
 
     # 設定
     - name: zmk-module-settings-rpc
@@ -86,17 +86,17 @@ manifest:
     - name: zmk-module-devtool
       remote: cormoran
       revision: main
-#    - name: zmk-feature-zephyr-setting-expose
-#      remote: cormoran
-#      revision: main
+    - name: zmk-feature-zephyr-setting-expose
+      remote: cormoran
+      revision: main
     - name: zmk-feature-kscan-diagnostics
       remote: cormoran
       revision: main
 
     # その他
-#    - name: zmk-module-battery-history
-#      remote: cormoran
-#      revision: main
+    - name: zmk-module-battery-history
+      remote: cormoran
+      revision: main
 
   self:
     path: config
